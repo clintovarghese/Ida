@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/cv"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:src="@drawable/celebration"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/imv"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15dp"
+                    android:textColor="#747474"
+                    android:layout_marginRight="20dp"
+                    android:text="Dr.Abdhul Hasif"
+                    android:id="@+id/tv1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Malapuram"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#747474"
+                    android:textSize="10dp"
+                    android:id="@+id/tv2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:textSize="10dp"
+                    android:textColor="#747474"
+                    android:text="3 hourago"/>
+                <!--  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginTop="-15dp"
+                      android:textColor="#747474"
+                      android:layout_marginLeft="20dp"
+                      android:textSize="10dp"
+                      android:text="thiruvanjoor"
+                      android:id="@+id/tv3"/>-->
+            </LinearLayout>
+            <!--  <ImageView
+                  android:layout_width="15dp"
+                  android:layout_height="15dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_gravity="center"
+                  android:src="@drawable/ic_call_black1111111_24dp"/>-->
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

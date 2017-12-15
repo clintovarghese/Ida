@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/relav"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.clinto.ida.Company"
+    tools:showIn="@layout/app_bar_company">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frag"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/linear">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/logo_ida" />
+
+        <Button
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_member_white"
+            android:id="@+id/btn1"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:padding="10dp"
+            android:text="members"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/btn2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp" />
+
+        <Button
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btn2"
+            android:layout_marginTop="55dp"
+            android:layout_below="@+id/imageView3"
+            android:drawableLeft="@drawable/ic_member_white"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:padding="10dp"
+            android:text="executive_members"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textAlignment="gravity"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignStart="@+id/btn1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln1"
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear"
+        android:layout_marginBottom="-15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/gal"
+            android:src="@mipmap/ic_launcher_ico_one"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/news"
+            android:src="@mipmap/ic_launcher_events"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/ic_launcher_notification11"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ln1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="gallery1"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="news_events1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="notification1"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

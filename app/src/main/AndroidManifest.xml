@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.clinto.ida">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher111111"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+       <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginSet" />
+        <activity
+            android:name=".Company"
+            android:label="@string/title_activity_company"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity3"
+            android:label="@string/title_activity_scrolling3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity2"
+            android:label="@string/title_activity_scrolling2"
+            android:theme="@style/AppTheme.NoActionBar" />
+       &lt;!&ndash; <activity
+            android:name=".DemoActivity"
+            android:label="@string/title_activity_demo"
+            android:theme="@style/AppTheme.NoActionBar" />&ndash;&gt;
+        &lt;!&ndash;<activity
+            android:name=".DemoActivity1"
+            android:label="@string/title_activity_demo1"
+            android:theme="@style/AppTheme.NoActionBar" />&ndash;&gt;
+        <activity
+            android:name=".DemoAcivity"
+            android:label="@string/title_activity_demo_acivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDcAtZr5UilnecTnAatrQ3ZoowFOrHZZaY" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginSet" />
+        <activity
+            android:name=".Company"
+            android:label="@string/title_activity_company"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+            <activity
+            android:name="."
+            android:label=""
+            android:theme="@style/AppTheme" />
+        -->
+        <!-- <activity android:name=".GoogleMapActivity" /> -->
+        <activity
+            android:name=".DemoAcivity"
+            android:label="@string/title_activity_demo_acivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ScrollingActivity2"
+            android:label="@string/title_activity_scrolling2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ScrollingActivity3"
+            android:label="@string/title_activity_scrolling3"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>
